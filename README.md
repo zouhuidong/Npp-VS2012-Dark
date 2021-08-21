@@ -1,24 +1,34 @@
-VS2012/2013 Dark Theme for Notepad++
+Visual Studio Dark Theme for Notepad++
 =============
 
-This is as close as I can get to a replica of the Visual Studio 2012's Dark theme in Notepad++. I created it to ease switching between files opened in Visual Studio and Notepad++. Particularly close attention has been paid to C, C++, and XML but a number of other languages have been tested.
+这是一个风格和 Visual Studio 很相近的样式，用于 Notepad++
 
-Installation (per-machine)
---------------------------
+![原仓库链接](https://github.com/SeanCline/Npp-VS2012-Dark)
 
-1. Download [`VS2012-Dark.xml`](https://raw.githubusercontent.com/SeanCline/Npp-VS2012-Dark/master/VS2012-Dark.xml), making sure to get the raw version, to `%PROGRAMFILES%\Notepad++\themes` (`%PROGRAMFILES(X86)%\Notepad++\themes` on 64-bit systems).
-2. Restart Notepad++.
-3. Open *Settings->Style Configurator*.
-4. Select `VS2012-Dark` from the theme drop-down box.
-5. Click *Save & Close*
+我为原样式做了一些修订，请见 ![修订日志](#修订日志)
 
-Issues
-------
+安装方式
+--------
 
-While the colours are very close, if not spot on, there are some differences in appearance between this theme and VS2012. Visual Studio uses information from Intelisense to differentiate between class identifiers and variable identifiers. Notepad++'s lexer is more primitive and cannot make this distinction. Notepad++ is also not as good as interpreting precompiler statements. But that's OK, you don't use them anyway, right?
+1. 下载 VisualStudio_theme.xml
+2. 将下载的 xml 文件放入 Notepad++ 目录下的 themes 文件夹，如果不知道在哪里，可以 Win+R 然后输入 `%PROGRAMFILES%\Notepad++\themes`
+3. 重启 Notepad++
+4. 在 Notepad++ 中选择【设置】->【语言格式设置】，选择到 VisualStudio_theme 即可。
 
-If you find anything else wrong, feel free to [let me know](https://github.com/SeanCline/Npp-VS2012-Dark/issues/new).
+支持的语言
+---
 
-Screenshot
+C, C++, C#, Java, XML, HTML, php
+
+在所支持的语言之外的高亮可能不太正常。
+
+修订日志
+---
+
+修订版本 1 | 时间 2021-8-21
+1. 增加了对 php 的支持
+2. 调整了 C, C++, HTML, php 的注释颜色，使其更加鲜艳
+
+截图
 ----------
 ![Screenshot](https://github.com/SeanCline/Npp-VS2012-Dark/raw/master/screenshot.png "Screenshot")
