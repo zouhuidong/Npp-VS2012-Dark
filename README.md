@@ -29,6 +29,10 @@ C, C++, C#, Java, XML, HTML, php
 1. 增加了对 php 的支持
 2. 调整了 C, C++, HTML, php 的注释颜色，使其更加鲜艳
 
+修订版本 2 | 时间 2021-8-21
+
+1. 修复了 markdown 文件的文字背景色不同问题
+
 截图
 ----------
 ![Screenshot1](https://github.com/zouhuidong/Visual-Studio-theme-for-npp/blob/master/screenshot_1.png)
