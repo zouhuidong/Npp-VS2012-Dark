@@ -1,22 +1,20 @@
-<?xml version="1.0" encoding="Windows-1252" ?>
 <!--//
 
-????:	Visual Studio Dark Theme for Notepad++
+主题:	Visual Studio Dark Theme for Notepad++
 
-??:		Sean D. Cline (Sean.D.Cline@gmail.com)
-???:	huidong <huidong_mail@163.com>
+作者:	Sean D. Cline (Sean.D.Cline@gmail.com)
+修订者:	huidong <huidong_mail@163.com>
 
-??:		??????? Visual Studio ??????
-?????:	C, C++, C#, Java, XML, php
+描述:		这是一个风格和 Visual Studio 很相近的主题
+支持的语言:	C, C++, C#, Java, XML, HTML, php
 
-??:		???????? https://github.com/SeanCline/Npp-VS2012-Dark 
-			
-			????:
-			
-			???? 1 | ?? 2021-8-21
-			1. ???? php ???
-			2. ??? C, C++, HTML, php ?????,??????
-			
+备注:	原仓库地址 https://github.com/SeanCline/Npp-VS2012-Dark 
+
+		修订版本 1 | 时间 2021-8-21
+
+		1. 增加了对 php 的支持
+		2. 调整了 C, C++, HTML, php 的注释颜色，使其更加鲜艳
+
 //-->
 <NotepadPlus>
     <LexerStyles>
@@ -179,7 +177,7 @@
             <WordsStyle name="STRING" styleID="119" fgColor="D69D85" bgColor="1E1E1E" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="STRING VARIABLE" styleID="126" fgColor="D69D85" bgColor="1E1E1E" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="SIMPLESTRING" styleID="120" fgColor="D69D85" bgColor="1E1E1E" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="WORD" styleID="121" fgColor="4E9CD6" bgColor="1E1E1E" fontName="" fontStyle="1" fontSize="" keywordClass="instre1"></WordsStyle>
+            <WordsStyle name="WORD" styleID="121" fgColor="4E9CD6" bgColor="1E1E1E" fontName="" fontStyle="1" fontSize="" keywordClass="instre1" />
             <WordsStyle name="NUMBER" styleID="122" fgColor="B5CEA8" bgColor="1E1E1E" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="VARIABLE" styleID="123" fgColor="85B9D6" bgColor="1E1E1E" fontName="" fontStyle="1" fontSize="" />
             <WordsStyle name="COMMENT" styleID="124" fgColor="6EB478" bgColor="1E1E1E" fontName="Consolas" fontStyle="0" fontSize="" />
@@ -400,7 +398,7 @@
             <WordsStyle name="FUNCTION" styleID="20" fgColor="8DA6CE" bgColor="1E1E1E" fontName="" fontStyle="0" fontSize="" keywordClass="type2" />
             <WordsStyle name="PREPROCESSOR" styleID="9" fgColor="9B9B9B" bgColor="1E1E1E" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="INSTRUCTION WORD" styleID="5" fgColor="4E9CD6" bgColor="1E1E1E" fontName="" fontStyle="0" fontSize="" keywordClass="instre1" />
-            <WordsStyle name="TYPE WORD" styleID="16" fgColor="4E9CD6" bgColor="1E1E1E" fontName="" fontStyle="0" fontSize="" keywordClass="type1" />
+            <WordsStyle name="TYPE WORD" styleID="16" fgColor="4E9CD6" bgColor="1E1E1E" fontName="" fontStyle="0" fontSize="" keywordClass="type1">endfunction endif</WordsStyle>
             <WordsStyle name="NUMBER" styleID="4" fgColor="B5CEA8" bgColor="1E1E1E" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="STRING" styleID="6" fgColor="D69D85" bgColor="1E1E1E" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="CHARACTER" styleID="7" fgColor="D69D85" bgColor="1E1E1E" fontName="" fontStyle="0" fontSize="" />
@@ -715,8 +713,8 @@
             <WordsStyle name="File Header" styleID="2" fgColor="92CAF4" bgColor="1E1E1E" fontName="" fontStyle="1" fontSize="" />
             <WordsStyle name="Line Number" styleID="3" fgColor="2B91AF" bgColor="1E1E1E" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="Hit Word" styleID="4" fgColor="C8C8C8" bgColor="113D6F" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="Selected Line" styleID="5" fgColor="C8C8C8" bgColor="000000" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="Current line background colour" styleID="6" fgColor="C8C8C8" bgColor="000000" fontStyle="0" fontSize="" />
+            <WordsStyle name="Selected Line" styleID="5" fgColor="C8C8C8" bgColor="000000" fontName="" fontStyle="0" fontSize="">if else for while</WordsStyle>
+            <WordsStyle name="Current line background colour" styleID="6" fgColor="C8C8C8" bgColor="000000" fontStyle="0" fontSize="">bool long int char</WordsStyle>
         </LexerType>
     </LexerStyles>
     <GlobalStyles>
@@ -732,7 +730,7 @@
         <WidgetStyle name="Caret colour" styleID="2069" fgColor="DCDCDC" bgColor="112435" fontSize="" fontStyle="0" />
         <WidgetStyle name="Edge colour" styleID="0" fgColor="888A85" bgColor="1E1E1E" fontSize="" fontStyle="0" />
         <WidgetStyle name="Line number margin" styleID="33" fgColor="2B91AF" bgColor="1E1E1E" fontName="" fontStyle="0" fontSize="" />
-        <WidgetStyle name="Fold" styleID="0" fgColor="2E3436" bgColor="EEEEEC" fontStyle="0" />
+        <WidgetStyle name="Fold" styleID="0" fgColor="2E3436" bgColor="EEEEEC" fontStyle="0" fontSize="8" />
         <WidgetStyle name="Fold margin" styleID="0" fgColor="1E1E1E" bgColor="1E1E1E" fontStyle="0" />
         <WidgetStyle name="Fold active" styleID="0" fgColor="AAAAAA" bgColor="101010" fontStyle="0" />
         <WidgetStyle name="White space symbol" styleID="0" fgColor="808080" bgColor="1E1E1E" fontStyle="0" />
@@ -740,9 +738,9 @@
         <WidgetStyle name="Find Mark Style" styleID="31" bgColor="B55B0B" fgColor="DCDCDC" fontName="" fontSize="" fontStyle="0" />
         <WidgetStyle name="Mark Style 1" styleID="25" bgColor="00FFFF" fontStyle="0" />
         <WidgetStyle name="Mark Style 2" styleID="24" bgColor="FF8000" fontStyle="0" />
-        <WidgetStyle name="Mark Style 3" styleID="23" bgColor="FFFF00" fontStyle="0" />
-        <WidgetStyle name="Mark Style 4" styleID="22" bgColor="8000FF" fontStyle="0" />
-        <WidgetStyle name="Mark Style 5" styleID="21" bgColor="008000" fontStyle="0" />
+        <WidgetStyle name="Mark Style 3" styleID="23" bgColor="FFFF00" fontStyle="0" fgColor="FAAA3C" />
+        <WidgetStyle name="Mark Style 4" styleID="22" bgColor="8000FF" fontStyle="0" fgColor="FFCAB0" />
+        <WidgetStyle name="Mark Style 5" styleID="21" bgColor="008000" fontStyle="0" fgColor="000000" />
         <WidgetStyle name="Incremental highlight all" styleID="28" bgColor="0080FF" fgColor="FFCAB0" fontStyle="0" />
         <WidgetStyle name="Tags match highlighting" styleID="27" bgColor="0E3A6C" fgColor="C8C8C8" fontStyle="0" />
         <WidgetStyle name="Tags attribute" styleID="26" bgColor="1E1E1E" fgColor="DCDCDC" fontStyle="0" />
