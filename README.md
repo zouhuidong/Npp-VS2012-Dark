@@ -31,4 +31,6 @@ C, C++, C#, Java, XML, HTML, php
 
 截图
 ----------
-![Screenshot](https://github.com/SeanCline/Npp-VS2012-Dark/raw/master/screenshot.png "Screenshot")
+![Screenshot1](https://github.com/zouhuidong/Visual-Studio-theme-for-npp/blob/master/screenshot_1.png)
+![Screenshot2](https://github.com/zouhuidong/Visual-Studio-theme-for-npp/blob/master/screenshot_2.png)
+![Screenshot3](https://github.com/zouhuidong/Visual-Studio-theme-for-npp/blob/master/screenshot_3.jpg)
