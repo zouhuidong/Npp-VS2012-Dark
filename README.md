@@ -5,7 +5,7 @@ Visual Studio Dark Theme for Notepad++
 
 ![原仓库链接](https://github.com/SeanCline/Npp-VS2012-Dark)
 
-我为原样式做了一些修订，请见 ![修订日志](#)
+我为原样式做了一些修订，请见 ![修订日志](#修订日志)
 
 安装方式
 --------
